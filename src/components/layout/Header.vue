@@ -4,7 +4,7 @@
       <div class="container"> 
         <a class="navbar-toggle-btn nav-link-hover navbar-toggler" href="javascript:void(0);" data-toggle="collapse" data-target="#navbarCollapseAlt" aria-controls="navbarCollapseAlt" aria-expanded="false" aria-label="Toggle navigation"><span class="feather-icon"><i data-feather="menu"></i></span></a>
         <router-link to="/">
-          <a @click.prevent class="navbar-brand text-red">
+          <a href="#" class="navbar-brand text-red">
             <img :src="logo" alt="" width="120">
           </a>
         </router-link>
@@ -12,9 +12,22 @@
         <ul class="navbar-nav hk-navbar-content">
             <li class="nav-item">
                 <router-link to="/register-pro">
-                  <a href="#" @click.prevent class="btn btn-sm btn-rounded btn-danger">Vous êtes un expert juridique ?</a>
+                  <a href="#" class="btn btn-sm btn-rounded btn-theme">Vous êtes un expert juridique ?</a>
                 </router-link>
             </li>
+            <li class="nav-item dropdown dropdown-authentication pl-30">
+              <a class="nav-link dropdown-toggle no-caret" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <div class="media">
+                      <div class="media-body">
+                          <span class="feather-icon pa"><i data-feather="user"></i></span> <span class="pl-10">Espace membre<i class="zmdi zmdi-chevron-down"></i></span>
+                      </div>
+                  </div>
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" data-dropdown-in="flipInX" data-dropdown-out="flipOutX">
+                  <a class="dropdown-item" href="profile.html"><i class="dropdown-icon zmdi zmdi-account"></i><span>Connexion</span></a>
+                  <a class="dropdown-item" href="#"><i class="dropdown-icon zmdi zmdi-card"></i><span>Inscription</span></a>
+              </div>
+          </li>
         </ul>
       </div>
 

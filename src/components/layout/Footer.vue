@@ -1,7 +1,21 @@
 <template>
-  <div class="footer">
-   <hr><p class="text-center">Copyright Leeberal</p>
+ 	<!-- Footer -->
+  <div class="hk-footer-wrap container">
+      <footer class="footer">
+          <div class="row">
+              <div class="col-md-6 col-sm-12">
+                  <p>Copyright © 2020 <a href="#" class="text-dark" @click.prevent>Leeberal</a></p>
+              </div>
+              <div class="col-md-6 col-sm-12">
+                  <p class="d-inline-block">Suivez nous sur </p>
+                  <a href="#" target='_blank' class="d-inline-block btn btn-icon btn-icon-only btn-indigo btn-icon-style-4"><span class="btn-icon-wrap"><i class="fa fa-facebook"></i></span></a>
+                  <a href="#" target='_blank' class="d-inline-block btn btn-icon btn-icon-only btn-indigo btn-icon-style-4"><span class="btn-icon-wrap"><i class="fa fa-linkedin"></i></span></a>
+                  <a href="#" target='_blank' class="d-inline-block btn btn-icon btn-icon-only btn-indigo btn-icon-style-4"><span class="btn-icon-wrap"><i class="fa fa-instagram"></i></span></a>
+              </div>
+          </div>
+      </footer>
   </div>
+  <!-- /Footer -->
 </template>
 
 <script>

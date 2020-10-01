@@ -14022,8 +14022,8 @@ Project:	scrooge
 
 /*Top Nav*/
 .hk-wrapper .hk-navbar {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.125); }
   .hk-wrapper .hk-navbar .feather-icon {
     display: block; }
@@ -14190,19 +14190,19 @@ Project:	scrooge
         .hk-wrapper .hk-navbar .navbar-nav .nav-item.dropdown.dropdown-notifications .dropdown-menu .dropdown-item.read-notifications {
           background: #f5f5f6; }
   .hk-wrapper .hk-navbar.navbar-light {
-    background: #81a2cf; }
+    background: #81a2cf; color: #fff }
     .hk-wrapper .hk-navbar.navbar-light .navbar-brand {
       color: #324148; }
     .hk-wrapper .hk-navbar.navbar-light a.navbar-toggle-btn {
       color: #324148; }
     .hk-wrapper .hk-navbar.navbar-light a.nav-link-hover:after {
-      background: rgba(50, 65, 72, 0.1); }
+      background: rgba(255, 255, 255, 0.1); }
     .hk-wrapper .hk-navbar.navbar-light .navbar-nav.hk-navbar-content .nav-item .nav-link {
-      color: rgba(50, 65, 72, 0.7); }
+      color: rgba(255, 255, 255, 0.7); }
       .hk-wrapper .hk-navbar.navbar-light .navbar-nav.hk-navbar-content .nav-item .nav-link:hover, .hk-wrapper .hk-navbar.navbar-light .navbar-nav.hk-navbar-content .nav-item .nav-link:focus {
-        color: #324148; }
+        color: #fff; }
     .hk-wrapper .hk-navbar.navbar-light .navbar-nav.hk-navbar-content .nav-item.dropdown.dropdown-authentication .nav-link .media .media-body > span > i {
-      color: rgba(50, 65, 72, 0.4); }
+      color: rgba(5255, 255, 255, 0.4); }
   .hk-wrapper .hk-navbar.navbar-dark {
     background: #324148; }
     .hk-wrapper .hk-navbar.navbar-dark a.navbar-toggle-btn {
